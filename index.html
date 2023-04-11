@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Codificar e Decodificar</title>
+	<link rel="stylesheet" href="estilo/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="imagens/logo.png">
+</head>
+<body>
+
+	<main class="main container">
+		<header class="cabecalho">
+			<img src="imagens/logo.png" alt="logo">
+			<h1>Mensagens Codificadas</h1>
+		</header>
+		
+
+		<div class="container-input">
+			<div input>
+				<textarea id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>
+				<p>ATENÇÃO LETRAS SEM ACENTO</p>
+			</div>
+
+
+			<div id="output">
+				<img src="imagens/logo.png" alt="logo">
+				<h2>Sua mensagem aparecerá aqui"</h2>
+				<span>Digite um texto que deseja codificar ou decodificar</span>
+			</div>
+
+		</div>
+
+		<div class="buttons">
+			<div class="container-btn">
+				<button onclick="codificar()" class="btn-codificar">Codificar</button>
+				<button onclick="decodificar()" class="btn-decodificar">Decodificar</button>
+			</div>
+			
+		</div>
+	</main>
+
+	<footer class="rodape">
+		<div class="icons">
+			<a href=""><ion-icon name="logo-github"></ion-icon></a>
+			
+		</div>
+	<h3>Desenvolvido por Henrique Jorge</h3>
+	</footer>
+
+	<script src="js/script.js"></script>
+
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
